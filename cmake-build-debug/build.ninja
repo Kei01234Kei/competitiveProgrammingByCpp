@@ -72,11 +72,11 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 
 build cmake_object_order_depends_target_competitiveProgrammingByCpp: phony || CMakeFiles/competitiveProgrammingByCpp.dir
 
-build CMakeFiles/competitiveProgrammingByCpp.dir/AtCoderProblems/Training/Easy100/2.cpp.o: CXX_COMPILER__competitiveProgrammingByCpp_Debug /Users/keisuke/CLionProjects/competitiveProgrammingByCpp/AtCoderProblems/Training/Easy100/2.cpp || cmake_object_order_depends_target_competitiveProgrammingByCpp
-  DEP_FILE = CMakeFiles/competitiveProgrammingByCpp.dir/AtCoderProblems/Training/Easy100/2.cpp.o.d
+build CMakeFiles/competitiveProgrammingByCpp.dir/main.cpp.o: CXX_COMPILER__competitiveProgrammingByCpp_Debug /Users/keisuke/CLionProjects/competitiveProgrammingByCpp/main.cpp || cmake_object_order_depends_target_competitiveProgrammingByCpp
+  DEP_FILE = CMakeFiles/competitiveProgrammingByCpp.dir/main.cpp.o.d
   FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -std=gnu++98
   OBJECT_DIR = CMakeFiles/competitiveProgrammingByCpp.dir
-  OBJECT_FILE_DIR = CMakeFiles/competitiveProgrammingByCpp.dir/AtCoderProblems/Training/Easy100
+  OBJECT_FILE_DIR = CMakeFiles/competitiveProgrammingByCpp.dir
 
 
 # =============================================================================
@@ -86,7 +86,7 @@ build CMakeFiles/competitiveProgrammingByCpp.dir/AtCoderProblems/Training/Easy10
 #############################################
 # Link the executable competitiveProgrammingByCpp
 
-build competitiveProgrammingByCpp: CXX_EXECUTABLE_LINKER__competitiveProgrammingByCpp_Debug CMakeFiles/competitiveProgrammingByCpp.dir/AtCoderProblems/Training/Easy100/2.cpp.o
+build competitiveProgrammingByCpp: CXX_EXECUTABLE_LINKER__competitiveProgrammingByCpp_Debug CMakeFiles/competitiveProgrammingByCpp.dir/main.cpp.o
   FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk
   OBJECT_DIR = CMakeFiles/competitiveProgrammingByCpp.dir
   POST_BUILD = :
